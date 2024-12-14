@@ -1,0 +1,85 @@
+# Logs
+*.log
+logs/
+
+# Compiled source files
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven/Gradle directories
+target/
+build/
+.mvn/
+.gradle/
+!mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Application properties
+application.properties
+application.yml
+application-dev.properties
+application-test.properties
+application-prod.properties
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Spring Tool Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Security
+*.jks
+*.p12
+*.pem
+*.crt
+*.key
+*.env
+
+# Spring Boot specific
+*.jar
+*.war
+*.ear
+
+# Testing
+test-output/
+
+# Generated files
+hs_err_pid*
+bin/
+out/
+lib/
+
+# HELP.md
+HELP.md
